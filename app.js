@@ -24,11 +24,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.send(`Hello! My name is Karankumar Patel. I am a mechanical engineer and a computer programmer as well.`);
+    res.send(`<h3>About Me!</h3>
+    Hello! My name is Karankumar Patel.<br> I am a mechanical engineer and a computer programmer as well.`);
 });
 
 app.get('/contact', (req, res) => {
-    res.send(`You can call send me mail on 200350059@student.georgianc.on.ca or call me anytime on +17058960219.`);
+    res.send(`<h3>Contact</h3>
+    You can call send me mail on 200350059@student.georgianc.on.ca or call me anytime on +17058960219.`);
 });
 
 const port = process.env.PORT || 2000;
