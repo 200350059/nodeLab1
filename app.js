@@ -31,7 +31,7 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
     res.send(`<h3>Contact</h3>
     You can send me mail on 200350059@student.georgianc.on.ca. <br>
-    .Or call me anytime on +17058960219.`);
+    Or call me anytime on +17058960219.`);
 });
 
 const port = process.env.PORT || 2000;
